@@ -80,6 +80,7 @@ hr {
     gap: 20px;
 }
 .tarjeta{
+    width: 200px;
     border: 2px solid #ddd;
     border-radius: 8px;
     padding: 20px;
@@ -90,4 +91,20 @@ hr {
 .tarjeta a {
     color: #091ed8;
     text-decoration: none;
+}
+.targeta{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px; 
+}
+.contenido-video{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px; 
+}
+.video{
+    width: 200px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
 }
